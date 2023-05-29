@@ -1,0 +1,31 @@
+.moviesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  gap: 150px;
+  padding: 40px;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+@media (max-width: 560px) {
+  .moviesGrid {
+    grid-template-columns: 100%;
+  }
+} 
+
+/* .moviesGrid {
+  display: block;
+  justify-content: center;
+}
+
+.moviesGrid > * {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+@media (max-width: 560px) {
+  .moviesGrid > * {
+    margin: 10px 0;
+  }
+}
+ */
